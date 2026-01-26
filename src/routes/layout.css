@@ -2,3 +2,9 @@
 @plugin "daisyui";
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@font-face {
+    font-family: "Milling";
+    src: url("fonts/Milling-Triplex1mm.woff2") format("woff2"), url("fonts/Milling-Triplex1mm.woff") format("woff"), ;
+    font-style: normal;
+}
