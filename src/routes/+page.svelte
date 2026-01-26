@@ -9,12 +9,12 @@
 
 <div style:width="100vw" style:height="100vh">
 	<SvelteFlow maxZoom={1} minZoom={1}>
-		<!-- can add patternClass -->
 		<Background
 			bgColor="#0A0A0A"
-			patternColor="#d9d9d9"
+			patternColor="#959595"
 			variant={BackgroundVariant.Cross}
-			gap={40}
+            size={12}
+			gap={200}
 		/>
 	</SvelteFlow>
 </div>
