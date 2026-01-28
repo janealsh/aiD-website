@@ -54,7 +54,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
-		gap: 4px;
+		gap: 2px;
 		border-radius: 8px;
 		border: 1px solid rgba(63, 63, 63, 0.5);
 		background: #050505;
@@ -66,17 +66,17 @@
 	.node-top {
 		display: flex;
 		align-items: center;
-		gap: 6px;
+		gap: 4px;
 	}
 	.square {
-		height: 0.6rem;
-		width: 0.6rem;
+		height: 0.4rem;
+		width: 0.4rem;
 		background-color: #e8e8e8;
 		border-radius: 2px;
 	}
 	.node-title {
 		color: #969696;
-		font-size: 0.6rem;
+		font-size: 0.4rem;
 	}
 	.node-text {
 		color: #e8e8e8;
