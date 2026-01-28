@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../../routes/layout.css';
-	import { gsap } from 'gsap';
+	// import { gsap } from 'gsap';
 	// import { ScrambleTextPlugin } from 'gsap/ScrambleTextPlugin';
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 	// gsap.registerPlugin(ScrambleTextPlugin);
 
 	let { nodeText, nodeNum, leftPos, topPos, nodeWidth } = $props();
